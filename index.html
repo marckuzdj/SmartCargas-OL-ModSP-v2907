@@ -1449,7 +1449,7 @@ async function efetuarCadastro() {
             .then(res => {
               if (res.success) {
                 if (res.dados.length === 0) {
-                  listaEl.innerHTML = '<p style="color: green; font-weight: bold; text-align: center;">🎉 Nenhum token pendente! Tudo conferido.</p>';
+                  listaEl.innerHTML = '<p style="color: green; font-weight: bold; text-align: center;">🎉 Nenhum token localizado: DISPATCHES pendentes ou Romaneios já finalizados.</p>';
                   return;
                 }
         
